@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">BILLO.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#services">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- home -->
+
+  <!-- <section class="home" id="home">
+    <div class="home-div">
+      <div class="overlay"></div>
+      <div class="row position-absolute top-50 start-50">
+        <div class="col-12 text-white text-center">
+          <h1>We Design Remarkable and
+            Stunning Bootstrap Websites</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority
+            have suffered alteration in some form, by injected humour, or randomised words</p>
+          <a href="#" class="btn-home">Get started</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <section id="home" class="bg-cover hero-section" style="background-image: url(images/cover_1.jpg);">
+    <div class="overlay"></div>
+    <div class="container text-white text-center">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4" data-aos="zoom-in">We Design Remarkable and<br>
+            Stunning Bootstrap Websites</h1>
+          <p class="my-4" data-aos="fade-up">There are many variations of passages of Lorem Ipsum available, but the
+            majority<br>
+            have suffered alteration in some form, by injected humour, or randomised words</p>
+          <a href="#" data-aos="fade-up" class="btn btn-main rounded-pill">Get started</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- home  --> 
+
+  <!-- <section class="service" id="service">
+    <h1>Our Services</h1>
+    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+      alteration in some form, by injected humour, or randomised words which don't look even slightly</p>
+  </section> -->
+
+  <!-- services -->
+
+  <section id="services" class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-intro text-center" data-aos="fade-up">
+          <h1>Our Services</h1>
+          <div class="divider"></div>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered<br>
+            alteration in some form, by injected humour, or randomised words which don't look even slightly
+          </p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="service">
+            <div class="service-img">
+              <img src="images/image_1.jpg" alt="" class="img-fluid">
+              <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                  class="bi bi-browser-chrome" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+                </svg></div>
+            </div>
+            <h5 class="mt-5 pt-4">Service Name</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="service">
+            <div class="service-img">
+              <img src="images/image_2.jpg" alt="" class="img-fluid">
+              <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                  class="bi bi-bar-chart" viewBox="0 0 16 16">
+                  <path
+                    d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z" />
+                </svg></div>
+            </div>
+            <h5 class="mt-5 pt-4">Service Name</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="service">
+            <div class="service-img">
+              <img src="images/image_3.jpg" alt="" class="img-fluid">
+              <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                  class="bi bi-camera" viewBox="0 0 16 16">
+                  <path
+                    d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+                  <path
+                    d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                </svg></div>
+            </div>
+            <h5 class="mt-5 pt-4">Service Name</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services -->
+
+
+  <!-- About -->
+
+  <section id="about" class="bg-cover" style="background-image: url(images/cover_3.jpg);">
+    <div class="overlay"></div>
+    <div class="container text-white text-center">
+      <div class="row">
+        <div class="col-12 section-intro text-center" data-aos="fade-up">
+          <h1>Watch our video</h1>
+          <div class="divider"></div>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered<br>
+            alteration in some form, by injected humour, or randomised words which don't look even slightly
+          </p>
+          <a href="#" class="video-btn"><i class='bx bx-play'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="text-center features">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-intro text-center" data-aos="fade-up">
+          <div class="divider"></div>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered<br>
+            alteration in some form, by injected humour, or randomised words which don't look even slightly
+          </p>
+        </div>
+      </div>
+      <div class="row gx-4 gy-5">
+        <div class="col-md-4 feature" data-aos="fade-up">
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor"
+              class="bi bi-pencil" viewBox="0 0 16 16">
+              <path
+                d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z" />
+            </svg></div>
+          <h5 class="mt-4 mb-3">Feature Title</h5>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form</p>
+        </div>
+        <div class="col-md-4 feature" data-aos="fade-up">
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor"
+              class="bi bi-browser-chrome" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+            </svg></div>
+          <h5 class="mt-4 mb-3">Feature Title</h5>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form</p>
+        </div>
+        <div class="col-md-4 feature" data-aos="fade-up">
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor"
+              class="bi bi-calendar" viewBox="0 0 16 16">
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+            </svg></div>
+          <h5 class="mt-4 mb-3">Feature Title</h5>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form</p>
+        </div>
+        <div class="col-md-4 feature" data-aos="fade-up">
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor"
+              class="bi bi-camera" viewBox="0 0 16 16">
+              <path
+                d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+              <path
+                d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+            </svg></div>
+          <h5 class="mt-4 mb-3">Feature Title</h5>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form</p>
+        </div>
+        <div class="col-md-4 feature" data-aos="fade-up">
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor"
+              class="bi bi-scissors" viewBox="0 0 16 16">
+              <path
+                d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61 3.5 3.5zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zm7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z" />
+            </svg></div>
+          <h5 class="mt-4 mb-3">Feature Title</h5>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form</p>
+        </div>
+        <div class="col-md-4 feature" data-aos="fade-up">
+          <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="currentColor" class="bi bi-sliders2" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10.5 1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4H1.5a.5.5 0 0 1 0-1H10V1.5a.5.5 0 0 1 .5-.5ZM12 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-6.5 2A.5.5 0 0 1 6 6v1.5h8.5a.5.5 0 0 1 0 1H6V10a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5ZM1 8a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 1 8Zm9.5 2a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V13H1.5a.5.5 0 0 1 0-1H10v-1.5a.5.5 0 0 1 .5-.5Zm1.5 2.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Z"/>
+          </svg></div>
+          <h5 class="mt-4 mb-3">Feature Title</h5>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about  -->
+
+
+  <!-- feature -->
+
+  <section class="bg-cover text-center" style="background-image: url(images/cover_2.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-trophy"
+            viewBox="0 0 16 16">
+            <path
+              d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z" />
+          </svg>
+          <h1>45,00</h1>
+          <p>Awards Won</p>
+        </div>
+        <div class="col-md-3 text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-camera"
+            viewBox="0 0 16 16">
+            <path
+              d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+            <path
+              d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+          </svg>
+          <h1>120k</h1>
+          <p>pictures taken</p>
+        </div>
+        <div class="col-md-3 text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-emoji-smile"
+            viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+              d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z" />
+          </svg>
+          <h1>30M+</h1>
+          <p>Happy Clients</p>
+        </div>
+        <div class="col-md-3 text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-brush"
+            viewBox="0 0 16 16">
+            <path
+              d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z" />
+          </svg>
+          <h1>4,005</h1>
+          <p>Theme Designed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- feature -->
+
+  <!-- reviews  -->
+
+  <section id="reviews" class="text-center">
+    <div class="conatiner">
+      <div class="row">
+        <div class="col-12 section-intro text-center">
+          <h1>Our Testimonials</h1>
+          <div class="divider"></div>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form, by injected humour, or randomised words which don't look even slightly</p>
+        </div>
+      </div>
+
+      <div class="row g-4 text-start">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="review  p-4">
+            <div class="person">
+              <img src="images/avatar_1.jpg" alt="" class="rounded-circle" width="60" height="60">
+              <div class="text ms-3">
+                <h6 class="mb-0">John Walker</h6>
+                <p>Google</p>
+              </div>
+            </div>
+            <p class="pt-4">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected
+            </p>
+            <div class="stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="review  p-4">
+            <div class="person">
+              <img src="images/avatar_1.jpg" alt="" class="rounded-circle" width="60" height="60">
+              <div class="text ms-3">
+                <h6 class="mb-0">John Walker</h6>
+                <p>Google</p>
+              </div>
+            </div>
+            <p class="pt-4">
+               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected.
+            </p>
+            <div class="stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="review p-4">
+            <div class="person">
+              <img src="images/avatar_1.jpg" alt="" class="rounded-circle" width="60" height="60">
+              <div class="text ms-3">
+                <h6 class="mb-0">John Walker</h6>
+                <p>Google</p>
+              </div>
+            </div>
+            <p class="pt-4">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected
+            </p>
+            <div class="stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="review p-4">
+            <div class="person">
+              <img src="images/avatar_1.jpg" alt="" class="rounded-circle" width="60" height="60">
+              <div class="text ms-3">
+                <h6 class="mb-0">John Walker</h6>
+                <p>Google</p>
+              </div>
+            </div>
+            <p class="pt-4">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected
+            </p>
+            <div class="stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="review  p-4">
+            <div class="person">
+              <img src="images/avatar_1.jpg" alt="" class="rounded-circle" width="60" height="60">
+              <div class="text ms-3">
+                <h6 class="mb-0">John Walker</h6>
+                <p>Google</p>
+              </div>
+            </div>
+            <p class="pt-4">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected
+            </p>
+            <div class="stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="review  p-4">
+            <div class="person">
+              <img src="images/avatar_1.jpg" alt="" class="rounded-circle" width="60" height="60">
+              <div class="text ms-3">
+                <h6 class="mb-0">John Walker</h6>
+                <p>Google</p>
+              </div>
+            </div>
+            <p class="pt-4">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected
+            </p>
+            <div class="stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- blog -->
+
+  <section id="blog" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-intro text-center">
+          <h1>Our Blog Posts</h1>
+          <div class="divider"></div>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form, by injected humour, or randomised words which don't look even slightly</p>
+        </div>
+      </div>
+
+
+      <div class="row text-start">
+        <div class="col-md-4" data-aos="fade-up">
+          <img src="images/blog_post1.png" alt="" class="img-fluid">
+          <div class="mt-4 text">
+            <small>Posted in <a href="#">Web Design</a>, 12 Dec 2055</small>
+            <h5 class="mt-1 mb-2"><a href="#">Website design in 2055</a></h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up">
+          <img src="images/blog_post2.png" alt="" class="img-fluid">
+          <div class="mt-4 text">
+            <small>Posted in <a href="#">Web Design</a>, 12 Dec 2055</small>
+            <h5 class="mt-1 mb-2"><a href="#">Website design in 2055</a></h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up">
+          <img src="images/blog_post3.png" alt="" class="img-fluid">
+          <div class="mt-4 text">
+            <small>Posted in <a href="#">Web Design</a>, 12 Dec 2055</small>
+            <h5 class="mt-1 mb-2"><a href="#">Website design in 2055</a></h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact  -->
+
+
+  <section id="contact" class="bg-cover text-white" style="background-image: url(images/cover_3.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-intro text-center" data-aos="fade-up">
+          <h1>Get in touch</h1>
+          <div class="divider"></div>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered<br>
+            alteration in some form, by injected humour, or randomised words which don't look even slightly
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 mx-auto" data-aos="fade-up">
+          <form action="#" class="row g-4">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" placeholder="Full name">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" placeholder="Email address">
+            </div>
+            <div class="form-group col-md-12">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group col-md-12">
+              <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-main rounded-pill" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0">
+            Copyright © 2015-2020. Designed By Ruhba</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-dribbble"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+</body>
+
+</html>
